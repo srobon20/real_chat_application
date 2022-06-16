@@ -16,7 +16,7 @@ function sendMessage(message){
     //will show who has written the message
     let msg ={
         user:Name,
-        message:message
+        message:message.trim()
     }
 
     appendMessage(msg,'outgoing')
